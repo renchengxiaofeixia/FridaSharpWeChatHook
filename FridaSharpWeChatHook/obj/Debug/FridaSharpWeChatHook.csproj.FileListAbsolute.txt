@@ -1,0 +1,16 @@
+C:\Users\admin\Desktop\FridaSharpWeChatHook\FridaSharpWeChatHook\bin\Debug\FridaSharp.exe.config
+C:\Users\admin\Desktop\FridaSharpWeChatHook\FridaSharpWeChatHook\bin\Debug\FridaSharp.exe
+C:\Users\admin\Desktop\FridaSharpWeChatHook\FridaSharpWeChatHook\bin\Debug\FridaSharp.pdb
+C:\Users\admin\Desktop\FridaSharpWeChatHook\FridaSharpWeChatHook\bin\Debug\Fasm.NET.dll
+C:\Users\admin\Desktop\FridaSharpWeChatHook\FridaSharpWeChatHook\bin\Debug\Frida.dll
+C:\Users\admin\Desktop\FridaSharpWeChatHook\FridaSharpWeChatHook\bin\Debug\MemorySharp.dll
+C:\Users\admin\Desktop\FridaSharpWeChatHook\FridaSharpWeChatHook\bin\Debug\MemorySharp.xml
+C:\Users\admin\Desktop\FridaSharpWeChatHook\FridaSharpWeChatHook\obj\Debug\FridaSharpWeChatHook.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\FridaSharpWeChatHook\FridaSharpWeChatHook\obj\Debug\FridaSharpWeChatHook.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\Desktop\FridaSharpWeChatHook\FridaSharpWeChatHook\obj\Debug\FridaSharp.Form1.resources
+C:\Users\admin\Desktop\FridaSharpWeChatHook\FridaSharpWeChatHook\obj\Debug\FridaSharp.Properties.Resources.resources
+C:\Users\admin\Desktop\FridaSharpWeChatHook\FridaSharpWeChatHook\obj\Debug\FridaSharpWeChatHook.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\FridaSharpWeChatHook\FridaSharpWeChatHook\obj\Debug\FridaSharpWeChatHook.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\FridaSharpWeChatHook\FridaSharpWeChatHook\obj\Debug\FridaSharpWeChatHook.csproj.CopyComplete
+C:\Users\admin\Desktop\FridaSharpWeChatHook\FridaSharpWeChatHook\obj\Debug\FridaSharp.exe
+C:\Users\admin\Desktop\FridaSharpWeChatHook\FridaSharpWeChatHook\obj\Debug\FridaSharp.pdb

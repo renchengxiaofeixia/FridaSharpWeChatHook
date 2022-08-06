@@ -1,0 +1,16 @@
+C:\Users\admin\Desktop\FridaSharp-master\FridaSharp\obj\Debug\FridaSharp.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\FridaSharp-master\FridaSharp\obj\Debug\FridaSharp.Form1.resources
+C:\Users\admin\Desktop\FridaSharp-master\FridaSharp\obj\Debug\FridaSharp.Properties.Resources.resources
+C:\Users\admin\Desktop\FridaSharp-master\FridaSharp\obj\Debug\FridaSharp.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\FridaSharp-master\FridaSharp\obj\Debug\FridaSharp.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\FridaSharp-master\FridaSharp\bin\Debug\FridaSharp.exe
+C:\Users\admin\Desktop\FridaSharp-master\FridaSharp\bin\Debug\FridaSharp.pdb
+C:\Users\admin\Desktop\FridaSharp-master\FridaSharp\bin\Debug\Frida.dll
+C:\Users\admin\Desktop\FridaSharp-master\FridaSharp\obj\Debug\FridaSharp.csproj.CopyComplete
+C:\Users\admin\Desktop\FridaSharp-master\FridaSharp\obj\Debug\FridaSharp.exe
+C:\Users\admin\Desktop\FridaSharp-master\FridaSharp\obj\Debug\FridaSharp.pdb
+C:\Users\admin\Desktop\FridaSharp-master\FridaSharp\bin\Debug\FridaSharp.exe.config
+C:\Users\admin\Desktop\FridaSharp-master\FridaSharp\bin\Debug\Fasm.NET.dll
+C:\Users\admin\Desktop\FridaSharp-master\FridaSharp\bin\Debug\MemorySharp.dll
+C:\Users\admin\Desktop\FridaSharp-master\FridaSharp\bin\Debug\MemorySharp.xml
+C:\Users\admin\Desktop\FridaSharp-master\FridaSharp\obj\Debug\FridaSharp.csproj.SuggestedBindingRedirects.cache
