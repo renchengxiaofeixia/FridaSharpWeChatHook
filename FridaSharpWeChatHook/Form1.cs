@@ -12,17 +12,17 @@ using System.Text;
 using System.Windows.Forms;
 using System.Windows.Threading;
 
-namespace FridaSharp
+namespace FridaSharpWeChatHook
 {
     public partial class Form1 : Form
     {
-        static Frida.DeviceManager deviceManager;
-        static List<Frida.Device> Devices;
-        static List<Frida.Process> Processes;
-        static Frida.Session session;
-        static Frida.Script script;
+        Frida.DeviceManager deviceManager;
+        List<Frida.Device> Devices;
+        List<Frida.Process> Processes;
+        Frida.Session session;
+        Frida.Script script;
         
-        static Process target;
+        Process target;
 
 
         public Form1()
@@ -234,6 +234,7 @@ namespace FridaSharp
                         "push 0",
                         "push 0xF",
                         string.Format("mov edi, 0x{0} ",desc.ToString("X")),
+
                         "mov eax, edi",
                         "sub esp, 0x14",
                         "mov ecx, esp",
@@ -255,6 +256,37 @@ namespace FridaSharp
                     };
                 var asmcode = string.Join("\n", asm);
                 var rt = ms.Assembly.InjectAndExecute(asm);
+            }
+        }
+
+        private void btnSendPic_Click(object sender, EventArgs e)
+        {
+            target = Process.GetProcesses().FirstOrDefault(k => k.ProcessName == "WeChat");
+            using (var ms = new MemorySharp(target))
+            {
+                var mod = ms.Modules.RemoteModules.FirstOrDefault(k => k.Name == "WeChatWin.dll");
+
+                IntPtr picAddress = IntPtr.Zero;
+
+                var dlg = new OpenFileDialog();
+                dlg.Title = "选择图片";
+                dlg.Filter = "*.jpg|*jpg|*.png|*.png";
+                if (dlg.ShowDialog() == DialogResult.OK)
+                {
+                    picAddress = AllocateWxDataStruct(ms, dlg.FileName);
+                }
+                var wxIdAddress = AllocateWxDataStruct(ms, txtWxId.Text);
+                var tempAddress = AllocatePtr(ms, 4);
+                var rt = ms.Assembly.InjectAndExecute(
+                    new string[] {
+                        "sub esp,0x14",
+                        string.Format("mov ecx, 0x{0}",(mod.BaseAddress.ToInt32()+ 0x2424250).ToString("X")),
+                        string.Format("push 0x{0}",picAddress.ToString("X")),
+                        string.Format("push 0x{0} ",wxIdAddress.ToString("X")),
+                        string.Format("push 0x{0}",tempAddress.ToString("X")),
+                        string.Format("call 0x{0}",(mod.BaseAddress.ToInt32()+ 0x55CDC0).ToString("X")),
+                        "ret"
+                    });
             }
         }
     }

@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{BCA60FBD-7473-4739-A031-18413DE0DAD9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>FridaSharp</RootNamespace>
-    <AssemblyName>FridaSharp</AssemblyName>
+    <RootNamespace>FridaSharpWeChatHook</RootNamespace>
+    <AssemblyName>FridaSharpWeChatHook</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

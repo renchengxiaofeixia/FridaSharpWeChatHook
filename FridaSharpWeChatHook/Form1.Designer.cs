@@ -1,4 +1,4 @@
-﻿namespace FridaSharp
+﻿namespace FridaSharpWeChatHook
 {
     partial class Form1
     {
@@ -43,6 +43,7 @@
             this.txtDesc = new System.Windows.Forms.TextBox();
             this.txtWxId = new System.Windows.Forms.TextBox();
             this.txtMsg = new System.Windows.Forms.TextBox();
+            this.btnSendPic = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnExit
@@ -111,7 +112,7 @@
             // 
             // btnSearchWxInfo
             // 
-            this.btnSearchWxInfo.Location = new System.Drawing.Point(862, 121);
+            this.btnSearchWxInfo.Location = new System.Drawing.Point(862, 150);
             this.btnSearchWxInfo.Name = "btnSearchWxInfo";
             this.btnSearchWxInfo.Size = new System.Drawing.Size(131, 21);
             this.btnSearchWxInfo.TabIndex = 10;
@@ -121,7 +122,7 @@
             // 
             // txtPhone
             // 
-            this.txtPhone.Location = new System.Drawing.Point(862, 148);
+            this.txtPhone.Location = new System.Drawing.Point(862, 177);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(131, 21);
             this.txtPhone.TabIndex = 11;
@@ -155,7 +156,7 @@
             // 
             // txtWxId
             // 
-            this.txtWxId.Location = new System.Drawing.Point(862, 38);
+            this.txtWxId.Location = new System.Drawing.Point(862, 67);
             this.txtWxId.Name = "txtWxId";
             this.txtWxId.Size = new System.Drawing.Size(131, 21);
             this.txtWxId.TabIndex = 16;
@@ -163,17 +164,28 @@
             // 
             // txtMsg
             // 
-            this.txtMsg.Location = new System.Drawing.Point(862, 65);
+            this.txtMsg.Location = new System.Drawing.Point(862, 94);
             this.txtMsg.Name = "txtMsg";
             this.txtMsg.Size = new System.Drawing.Size(131, 21);
             this.txtMsg.TabIndex = 15;
             this.txtMsg.Text = "testestst";
+            // 
+            // btnSendPic
+            // 
+            this.btnSendPic.Location = new System.Drawing.Point(862, 40);
+            this.btnSendPic.Name = "btnSendPic";
+            this.btnSendPic.Size = new System.Drawing.Size(131, 21);
+            this.btnSendPic.TabIndex = 17;
+            this.btnSendPic.Text = "SendPicMsg";
+            this.btnSendPic.UseVisualStyleBackColor = true;
+            this.btnSendPic.Click += new System.EventHandler(this.btnSendPic_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1014, 483);
+            this.Controls.Add(this.btnSendPic);
             this.Controls.Add(this.txtWxId);
             this.Controls.Add(this.txtMsg);
             this.Controls.Add(this.txtDesc);
@@ -216,6 +228,7 @@
         private System.Windows.Forms.TextBox txtDesc;
         private System.Windows.Forms.TextBox txtWxId;
         private System.Windows.Forms.TextBox txtMsg;
+        private System.Windows.Forms.Button btnSendPic;
     }
 }
 

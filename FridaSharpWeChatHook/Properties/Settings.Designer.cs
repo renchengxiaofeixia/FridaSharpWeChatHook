@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FridaSharp.Properties {
+namespace FridaSharpWeChatHookWeChatHook.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
